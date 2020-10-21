@@ -1,0 +1,14 @@
+/* Navigation */
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  margin-right: 20px;
+}

@@ -1,0 +1,98 @@
+/* Banner - Media Specific */
+
+@media (min-width: 320px) {
+  /*   #intro-image,
+  #intro-text {
+    display: none;
+  } */
+  #intro-text {
+    top: -15px;
+    left: 20%;
+  }
+  #intro-text h2 {
+    font: 400 30px/1.5 "Pacifico", Helvetica, sans-serif;
+  }
+  #intro-text h6 {
+    margin-top: 8px;
+    font: 1rem Helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 576px) {
+  /*   #intro-image,
+  #intro-text {
+    display: block;
+  } */
+  #intro-text h2 {
+    font: 400 40px/1.5 "Pacifico", Helvetica, sans-serif;
+  }
+  #intro-text h6 {
+    margin-top: 15px;
+    font: 1rem Helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  #intro-text {
+    top: 5%;
+    left: 5%;
+  }
+  .section-title {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #intro-text h2 {
+    font: 400 60px/1.5 "Pacifico", Helvetica, sans-serif;
+  }
+  #intro-text h6 {
+    margin-top: 15px;
+    font: 25px/1.5 Helvetica, sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #intro-text {
+    top: 13%;
+  }
+  #intro-text h2 {
+    font: 400 70px/1.5 "Pacifico", Helvetica, sans-serif;
+  }
+  #intro-text h6 {
+    margin-top: 25px;
+    font: 25px/1.5 Helvetica, sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #intro-text {
+    top: 15%;
+  }
+  #intro-text h2 {
+    font: 400 120px/1.5 "Pacifico", Helvetica, sans-serif;
+  }
+}
+
+#intro-image {
+  background: url(/images/headerBckg.jpg) top right no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  height: 25vw;
+}
+
+#intro-text {
+  animation-duration: 3s;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+}
+
+#intro-text h2 {
+  color: lightgray;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+}

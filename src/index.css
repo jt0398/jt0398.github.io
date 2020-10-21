@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.section-title {
+  font: serif;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

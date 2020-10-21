@@ -1,0 +1,51 @@
+/* Portfolio Projects */
+
+.project {
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.project h4 {
+  margin: 20px 15px;
+}
+
+.project a:link,
+a:hover,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.stack {
+  padding: 0;
+  list-style: none;
+  margin: 0px 20px 20px 10px;
+}
+
+.stack li {
+  display: inline-block;
+  font-size: 0.85rem;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.stack li:last-child {
+  display: inline-block;
+  box-shadow: none;
+  padding: 0;
+}
+
+.project i {
+  font-size: 2rem;
+}
+
+.project:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
