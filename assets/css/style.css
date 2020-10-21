@@ -1,3 +1,23 @@
+/* Navigation */
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+/* Section Title */
+
+.section-title {
+  font: serif;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
 /* Banner - Media Specific */
 
 @media (min-width: 320px) {
@@ -75,7 +95,7 @@
 }
 
 #intro-image {
-  background: url(/images/headerBckg.jpg) top right no-repeat;
+  background: url(../images/headerBckg.jpg) top right no-repeat;
   background-size: cover;
   filter: blur(2px);
   -webkit-filter: blur(2px);
@@ -95,4 +115,73 @@
 #intro-text h2 {
   color: lightgray;
   text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Icons */
+
+.icon {
+  font-size: 2rem;
+}
+
+.icon-md {
+  font-size: 2rem;
+}
+
+/* Portfolio Projects */
+
+.project {
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.project h4 {
+  margin: 20px 15px;
+}
+
+.project a,
+a:hover,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.stack {
+  padding: 0;
+  list-style: none;
+  margin: 0px 20px 20px 10px;
+}
+
+.stack li {
+  display: inline-block;
+  font-size: 0.85rem;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.stack li:last-child {
+  display: inline-block;
+  box-shadow: none;
+  padding: 0;
+}
+
+.project i {
+  font-size: 2rem;
+}
+
+.project:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  /* -webkit-transition: all 0.3s ease-out;
+  transition :all0.3s ease-out ;*/
 }
