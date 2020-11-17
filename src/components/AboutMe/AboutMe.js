@@ -62,10 +62,9 @@ const AboutMe = () => {
         </p>
 
         <p>
-          Earned a certificate from the University of Toronto Full Stack
-          Bootcamp. Skills in different web technologies including Javascript,
-          React, Web API, Node.js, Express, MySQL as well as strength in
-          analysis and problem solving.
+          Skills in different web technologies including Javascript, React, Web
+          API, Node.js, Express, MySQL as well as strength in analysis and
+          problem solving.
         </p>
 
         <p>

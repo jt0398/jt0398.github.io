@@ -47,6 +47,9 @@ const Skills = () => {
                 </p>
                 <p className="p-2">Express</p>
                 <p className="p-2">RESTful API</p>
+                <p className="p-2">
+                  <i class="fab fa-python icon d-block"></i>Python
+                </p>
               </td>
             </tr>
           </tbody>
