@@ -97,6 +97,8 @@ const AboutMe = () => {
           >
             Certified Solutions Architect – Associate
           </a>
+        </p>
+        <p>
           <a
             href="https://www.credly.com/earner/earned/badge/f2b31381-53de-40ab-9ec0-396cb5504166"
             target="blank"
