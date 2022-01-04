@@ -97,6 +97,20 @@ const AboutMe = () => {
           >
             Certified Solutions Architect – Associate
           </a>
+          <a
+            href="https://www.credly.com/earner/earned/badge/f2b31381-53de-40ab-9ec0-396cb5504166"
+            target="blank"
+            className="icon text-info mr-3"
+          >
+            <i className="fab fa-microsoft"></i>
+          </a>
+          <a
+            href="https://www.credly.com/earner/earned/badge/f2b31381-53de-40ab-9ec0-396cb5504166"
+            target="blank"
+            className="text-info"
+          >
+            Microsoft Certified: Azure Fundamentals
+          </a>
         </p>
         <a
           href="/files/judytan.pdf"
